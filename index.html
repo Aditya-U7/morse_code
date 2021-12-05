@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+<link rel="stylesheet" type="text/css" href="/home/aditya/the camp/bootstrap-4.4.1/dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+  </head>
+  <body>
+<div class="jumbotron">
+  <h1>Welcome to the morse code converter.</h1>
+  </div>
+  <p>
+    SELECT THE CONVERTER:
+    </p>
+<button type="button" class="btn btn-outline-dark btn-lg" id="text_to_morse" onclick="texttomorse()">Text to Morse</button>
+<button type="button" class="btn btn-outline-dark btn-lg" id="morse_to_text" onclick="morsetotext()">Morse code to text</button>
+
+
+    <textarea  class="container1" id="in" rows="7" cols="20"></textarea>
+<textarea class="container1" id="out" rows="7" cols="20"></textarea>
+
+<script src="morse_code.js">
+
+</script>
+
+  </body>
+</html>
